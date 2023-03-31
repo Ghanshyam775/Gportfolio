@@ -1,0 +1,283 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Roboto+Slab&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Kanit&family=Ms+Madi&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Corinthia:wght@700&family=Montserrat:wght@900&display=swap');
+  /*font-family: 'Aclonica', sans-serif;
+  font-family: 'Corinthia', cursive;
+  font-family: 'Montserrat', sans-serif;*/
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit',sans-serif; 
+}
+.tlogo{
+    color: white;
+    font-size: 50px; 
+}
+span{
+    color:  #e74c3c;
+    font-size: 50px;
+}
+.navbar-brand{
+    margin-left: 20px;
+}
+.navbar-toggler-icon{
+  height: 20px;
+  width: 20px;
+  
+}
+.ti-align-justify{
+  color: white;
+  background-color: white;
+  border: n;
+}
+.navbar-toggler{
+  color: whitesmoke;
+  border: none;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    /* padding: 10px 20px; */
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-link:hover{
+background: #e74c3c;
+transition: 0.4;
+}
+#Home{
+    background-image:url('../images/bg1.jpeg  ' ) ;
+    clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+}
+
+.text{
+    text-align: left;
+    color:white;
+  
+}
+.text h1{
+    font-size: 50px;
+    margin: 10px 0px;
+    font-family: 'Aclonica', sans-serif;
+}
+.text p{
+    font-size: 30px;
+}
+
+#contact1{
+    font-size: 21px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s ease;
+    font-weight: bold;
+    color: white;
+    background-color: #e74c3c;
+}
+#contact1:hover{
+    color: black;
+   background-color: rgb(255, 247, 248);
+}
+#Education{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background-color: white;
+    border-radius: 3px;
+    font-family: 'Aclonica', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+
+#range:hover,#range1:hover,#range2:hover,#range3:hover,#range5:hover,#range4:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  #range{
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+      color: #e34c26;
+      font-size: 20px;
+      background: linear-gradient(to right, #e34c26 85%, #ffffff 85%);
+  }
+  #range1{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: #2965f1;
+    font-size: 20px;
+    background: linear-gradient(to right, #2965f1 85%, #ffffff 85%);
+}
+
+#range2{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: #563d7c;
+    font-size: 20px;
+    background: linear-gradient(to right, #563d7c 75%, #ffffff 75%);
+}
+
+#range3{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: #f7df45;
+    font-size: 20px;
+    background: linear-gradient(to right, #f7df45 50%, #ffffff 50%);
+}
+#range5{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: #3bb6f0;
+    font-size: 20px;
+    background: linear-gradient(to right, #4ae5eb 60%, #ffffff 60%);
+}
+#range4{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: #444140;
+    font-size: 20px;
+    background: linear-gradient(to right, #444140 50%, #ffffff 50%);
+}
+#projects{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  }
+  .container12 {
+    position: relative;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    cursor: pointer;
+  }
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container12:hover .image {
+    opacity: 0.04; 
+  }
+  .container12:hover .middle {
+    opacity: 1;
+  }
+  
+  .text1 {
+    color: black;
+    font-size: 12px;
+  }
+  
+  .submit{
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s ease;
+    font-weight: bold;
+    color: #e74c3c;
+  }
+  .submit:hover{
+    background-color: #e74c3c;
+    color: white;
+  }
+
+
+  /* footer */
+  .fnav ul{
+    list-style: none;
+
+  }
+  .fnav li{
+    margin-bottom: 10px;
+  }
+  .fnav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+    margin: 5px;
+    font-size: 18px;
+     
+  }
+  .fnav  a:hover{
+    background: #e74c3c;
+    transition: 0.4;
+  }
+  .mail-phone{
+    color: rgb(248, 243, 243);
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .mail-phone:hover{
+    color: rgb(20, 198, 230);
+  }
+  .rounded{
+    box-shadow: rgba(92, 92, 92, 0.25) 0px 14px 28px, rgba(59, 59, 59, 0.22) 0px 10px 10px;
+  }
+.icon{
+  
+    margin: 50px 5px;
+    padding: 5px;
+    color: white; 
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(31, 31, 31);
+  transition: .5s ease;
+  font-weight: bold;
+}
+.icon:hover{
+    color: whitesmoke; 
+    background-color: #e74c3c;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  }
+  #sm{
+    margin-top: 50px;
+    
+  }
+  
+  @media(max-width: 710px)  {
+    #Home{
+    clip-path:none;
+  }
+   
+  }
