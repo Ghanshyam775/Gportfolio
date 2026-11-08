@@ -1,0 +1,9 @@
+{
+  "name": "CareStory AI",
+  "short_name": "CareStory",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8F5F0",
+  "theme_color": "#2F5D50",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
